@@ -67,12 +67,12 @@ En las condiciones evaluadas, la deflación por IPC redujo la distancia entre di
 ## Reproducibilidad
 
 1. Clonar este repositorio.
-2. Obtener el dataset de la materia y ubicarlo según `data/README.md` (no se publica).
+2. Obtener el dataset de la materia y ubicarlo según `data/README.md`.
 3. Instalar en R: `data.table`, `lightgbm`, `rlist`, `jsonlite`, entre otros usados por el notebook, y Jupyter con kernel R.
 4. Ajustar rutas (`RUTA_BASE`, `NOTEBOOK`) en `src/ejecucion/*.R`.
 5. Ejecutar `src/ejecucion/z621_correr_todo_grupoB.R` (30 corridas) y luego `z621_correr_sinmonetarias_grupoB.R` (10 corridas). Cada corrida escribe sus resultados en `WF<id>/`; las ya terminadas se omiten.
 
-No se deben publicar datasets, credenciales ni información sensible.
+
 
 ## Estructura
 
