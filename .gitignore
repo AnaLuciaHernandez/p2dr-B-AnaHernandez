@@ -1,0 +1,15 @@
+data/*
+!data/README.md
+*.csv.gz
+prediccion.txt
+ganancias.txt
+modelo.txt
+kaggle.json
+*token*
+*secret*
+*secretos*
+estudiante_secretos.sh
+.Renviron
+.env
+.Rhistory
+.ipynb_checkpoints/
