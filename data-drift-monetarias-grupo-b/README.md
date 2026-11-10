@@ -39,7 +39,7 @@ La ablación no es un cuarto tratamiento de corrección: mide cuánto aporta el 
 
 ## Resultados principales
 
-![Ganancia por método](resultados/figuras/fig1_ganancia_por_metodo.png)
+![Ganancia por método](data-drift-monetarias-grupo-b/resultados/figuras/fig1_ganancia_por_metodo.png)
 
 1. **La deflación redujo el drift en la mayoría de las variables.** La mediana del KS pasó de 0,127 (nominal) a 0,050. Bajó en 18 de 25 variables y subió en 7 (entre ellas, cuatro límites de compra/financiación Visa/Mastercard, de ~0,09 a ~0,18). Que sean nominalmente rígidos es solo una hipótesis.
 2. **No se detectó mejora significativa de la ganancia.**
@@ -48,7 +48,7 @@ La ablación no es un cuarto tratamiento de corrección: mide cuánto aporta el 
    - Los intervalos incluyen efectos positivos y negativos: no se puede afirmar ni que la deflación mejore ni que su efecto sea exactamente nulo.
 3. **Las variables monetarias aportan información.** Representan 46,4 % del Gain sin corrección (47,7 % con deflación, 46,4 % con Rank Simple). Quitarlas (ablación) bajó la ganancia 9,11 M (≈10 %) en 10 de 10 semillas (p = 0,002; Holm p = 0,006).
 
-![Efecto frente al control](resultados/figuras/fig2_efecto_vs_control.png)
+![Efecto frente al control](data-drift-monetarias-grupo-b/resultados/figuras/fig2_efecto_vs_control.png)
 
 ## Conclusiones
 
